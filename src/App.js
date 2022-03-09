@@ -1,11 +1,11 @@
-import {useState} from 'react'
-import './app.css'
+import {useState} from 'react';
+import './app.css';
 
 function App() {
 
-  const [peso, setPeso] = useState('')
-  const [altura, setAltura] = useState('')
-  const [msg, setMsg] = useState('')
+  const [peso, setPeso] = useState('');
+  const [altura, setAltura] = useState('');
+  const [msg, setMsg] = useState('');
 
   function calcularIMC(){
     const alt = altura / 100;
